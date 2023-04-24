@@ -26,6 +26,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 Run `npm start` to run the application.
 
+## Update project name reference/s
+
+In `package.json`, replace any references to `angular-project-template` with the name of the new project. In `angular.json` (projects > AngularProjectTemplate > architect > build > options > outputPath), replace reference to `angular-project-template` with the name of the new project. In `index.html`, replace Title name AngularProjectTemplate, With the name of the new project.
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
