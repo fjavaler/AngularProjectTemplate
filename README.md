@@ -28,7 +28,7 @@ Run `npm start` to run the application.
 
 ## Update project name reference/s
 
-In `package.json`, replace any references to `angular-project-template` with the name of the new project. In `angular.json` (projects > AngularProjectTemplate > architect > build > options > outputPath), replace reference to `angular-project-template` with the name of the new project. In `index.html`, replace Title name AngularProjectTemplate, With the name of the new project.
+In `package.json`, replace any references to `angular-project-template` with the name of the new project. In `angular.json` (projects > AngularProjectTemplate > architect > build > options > outputPath) replace reference to `angular-project-template` with the name of the new project. In `index.html`, replace title tag's name, `AngularProjectTemplate`, with the name of the new project.
 
 ## Further help
 
